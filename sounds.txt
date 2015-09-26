@@ -1,0 +1,8 @@
+Player 1 correctly types a key
+Player 1 incorrectly types a key
+Player 1 stops Player 2
+
+Player 2's hand enters bag
+Player 2 grabs candy
+
+"point awarded" noise

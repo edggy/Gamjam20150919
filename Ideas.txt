@@ -1,0 +1,25 @@
+THE GAM:
+
+General: each player has a point total of 10.
+
+Player 1: 
+
+Display text on screen that says a key. Pick a random key from a list containing (q,w,e,r,t,y,u,i,o,p,[,],\,a,s,d,f,g,h,j,k,l,;,z,x,c,v,b,n,m,/)
+
+if the player hits the correct key, display a new key
+
+if the player hits the wrong key, or 3 seconds go by without hitting a key, detract one point from their total.
+
+Player 1 presses "1" to slap away the hand of player 2.
+
+Player 2:
+
+Display the arm/hand on screen
+
+If the hand sprite reaches the edge of the bag's y value, crop the image to hide the part that is "in the bag."
+
+player 2 presses the down arrow key to move the arm down. player 2 presses the up arrow key to "Grab."  This automatically causes the arm to retreat back up.
+
+Depending on the y-value of the center of the arm, the player is awarded 0, 1, 2, or 3 points for a successful grab, which are taken from player 1's total. 
+
+If player 1 hits "1" then the arm's y-value is automatically reset, and no points are awarded.
